@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: linear-gradient(to top, #9890e3 20%, #b1f4cf 80%);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.main-text {
+    position: relative;
+    background: black;
+    width: 30%;
+    left: 35.5%;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.piano-back {
+    width: 92%;
+    max-width: 1800px;
+    top: -125px;
+    height: 400px;
+    background: black;
+    display: block;
+    margin: 150px auto;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.keys {
+    position: relative;
+}
+
+.white-keys {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.white-key {
+    width: 6.5%;
+    margin-top: 50px;
+    height: 320px;
+    box-shadow: 2px 4px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+.black-keys {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.black-key {
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 214px;
+    width: 4.1%;
+    top: -325px;    
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 3px 5px rgb(43, 43, 43)y;
+}
+
+.white-key span {
+    position: relative;
+    bottom: -110px;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.black-key span {
+    bottom: 0%;
+    left: -1%;
+    position: relative;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 1vw;
+    padding: 6px;
+    overflow: hidden;
+}
+#Db3 {
+    left: 8.6%;
+}
+
+#Eb3 {
+    left: 4.6%;
+}
+
+#Gb3 {
+    left: 6.93%;
+}
+
+#Ab3 {
+    left: 2.9%;
+}
+
+#Bb3 {
+    left: -1.25%;
+}
+
+#Db4 {
+    left: 1.2%;
+}
+
+#Eb4 {
+    left: -2.98%;
+}
+
+#Gb4 {
+    left: -.7%;
+}
+
+#Ab4 {
+    left: -4.8%;
+}
+
+#Bb4 {
+    left: -8.97%
+}
+
+.bottom-panel {
+    background: black;
+    position: relative;
+    top: -245px;
+    width: 50%;
+    left: 27%;
+}
+
+.bottom-panel button {
+    display: inline-block;
+    margin: 5%;
+    margin-right: 2vw;
+    padding: 12px 20px 12px 20px;
+    font-weight: bold;
+    font-size: 1.8vw;
+}

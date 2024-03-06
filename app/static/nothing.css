@@ -1,0 +1,124 @@
+.white-key span {
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.black-key span {
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.keys {
+    position: relative;
+}
+
+.white-keys {
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-key {
+    flex: 1;
+    height: 330px;
+    background: white;
+    border-left: 2px solid white;
+    border-right: 6px solid white;
+}
+
+.black-key {
+    flex: 1;
+    background: black;
+    color: white;
+    height: 220px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+.white-key span {
+    
+    top: 107px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Db3 {
+    left: 0;
+}
+
+#Eb3 {
+    left: 20%;
+}
+
+#Gb3 {
+    left: 40%;
+}
+
+#Ab3 {
+    left: 60%;
+}
+
+#Bb3 {
+    left: 80%;
+}
+
+#Db4 {
+    left: 0;
+}
+
+#Eb4 {
+    left: 20%;
+}
+
+#Gb4 {
+    left: 40%;
+}
+
+#Ab4 {
+    left: 60%;
+}
+
+#Bb4 {
+    left: 80%;
+}
+
+.bottom-panel {
+    background: black;
+    padding: 10px;
+}
+
+.bottom-panel button {
+    margin: 8px;
+    margin-right: 10px
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .main-text {
+        width: 60%;
+        left: 20%;
+    }
+
+    .piano-back {
+        padding-top: 20px;
+    }
+
+    .white-key {
+        height: 200px;
+    }
+
+    .black-key {
+        height: 150px;
+        font-size: 14px;
+    }
+
+    .white-key span {
+        top: 50px;
+        font-size: 14px;
+    }
+}

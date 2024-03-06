@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <title>Chord Identifier</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-text">Chord Identifier</h1>
+        <div class="piano-back">
+            <div class="keys">
+                <div class="white-keys">
+                    <button class="white-key key"  id="C3" type="button"><span id="C3-span">C3</span></button>
+                    <button class="white-key key"  id="D3" type="button"><span id="D3-span">D3</span></button>
+                    <button class="white-key key"  id="E3" type="button"><span id="E3-span">E3</span></button>
+                    <button class="white-key key"  id="F3" type="button"><span id="F3-span">F3</span></button>
+                    <button class="white-key key"  id="G3" type="button"><span id="G3-span">G3</span></button>
+                    <button class="white-key key"  id="A3" type="button"><span id="A3-span">A3</span></button>
+                    <button class="white-key key"  id="B3" type="button"><span id="B3-span">B3</span></button>
+                    <button class="white-key key"  id="C4" type="button"><span id="C4-span">C4</span></button>
+                    <button class="white-key key"  id="D4" type="button"><span id="D4-span">D4</span></button>
+                    <button class="white-key key"  id="E4" type="button"><span id="E4-span">E4</span></button>
+                    <button class="white-key key"  id="F4" type="button"><span id="F4-span">F4</span></button>
+                    <button class="white-key key"  id="G4" type="button"><span id="G4-span">G4</span></button>
+                    <button class="white-key key"  id="A4" type="button"><span id="A4-span">A4</span></button>
+                    <button class="white-key key"  id="B4" type="button"><span id="B4-span">B4</span></button>
+                </div>
+                <div class="black-keys">
+                    <button class="black-key key"  id="Db3" type="button"><span id="Db3-span">Db3</span></button>
+                    <button class="black-key key"  id="Eb3" type="button"><span id="Eb3-span">Eb3</span></button>
+                    <button class="black-key key"  id="Gb3" type="button"><span id="Gb3-span">Gb3</span></button>
+                    <button class="black-key key"  id="Ab3" type="button"><span id="Ab3-span">Ab3</span></button>
+                    <button class="black-key key"  id="Bb3" type="button"><span id="Bb3-span">Bb3</span></button>
+                    <button class="black-key key"  id="Db4" type="button"><span id="Db4-span">Db4</span></button>
+                    <button class="black-key key"  id="Eb4" type="button"><span id="Eb4-span">Eb4</span></button>
+                    <button class="black-key key"  id="Gb4" type="button"><span id="Gb4-span">Gb4</span></button>
+                    <button class="black-key key"  id="Ab4" type="button"><span id="Ab4-span">Ab4</span></button>
+                    <button class="black-key key"  id="Bb4" type="button"><span id="Bb4-span">Bb4</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-panel">
+            <button id="find-chord-btn">Find Chord</button>
+            <button id="play-chord-btn">Play Chord</button>
+            <div id="chord-text"></div>
+            <div id="other-chords-text"></div>
+        </div>
+    </div>
+
+    <!-- <script src="{{ url_for('static', filename='main.js') }}"></script> -->
+    <script type="module" src="../static/main.js"></script>
+    <script type="module" src="../static/notes.js"></script>
+</body>
+</html> 
