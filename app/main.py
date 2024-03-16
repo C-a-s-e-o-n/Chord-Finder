@@ -35,7 +35,6 @@ def get_note():
     }
 
     print(response_data)
-        # print(jsonify({'audioFilePath':audio_file_path}))
 
     return jsonify(response_data)
 

@@ -187,16 +187,10 @@ def find_user_chord(user_notes, conn, c):
         used_tonics = [] # don't repeat tonics, example: c_maj_11 matches with c_maj_13, not good
         for chord, note_count in query_result:
             if note_count == len(user_notes):
-                print('here4')
-                print(chord)
-                print(chord[0] not in used_tonics)
-                print(count == 0)
-                print(count)
                 if chord[0] not in used_tonics and count == 0:
                     first_matched_chord = chord
                     used_tonics.append(chord[0])
                     print(first_matched_chord)
-                    print('here')
                     count += 1
                 elif chord[0] not in used_tonics:
                     other_matched_chords.append(chord)
